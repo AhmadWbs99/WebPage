@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Essay about Information Technology">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Ahmad Waebeusar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="iconePage.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <li> <a href="#form">Login</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
+               
+            </ul>
+        </nav>
+
+        <section id="contact" >
+            <h3>Contact me </h3>
+            Name :
+            Ahmad waebeusar <br>
+            Address : 
+            Pattani , Yaring <br>
+            Email :
+            ahmad.weabeusar@gmail.com <br> 
+        </sectiont>
+       <hr>
+            <h3> About me</h3> 
+            I'm Ahmad waebeusar , I'm IT Student in Fatoni Uneversity, I'm growing up in Saudi Arabia, I can develop by C langauge and java. 
+        <hr>
+        <section id="form">
+            <form>
+
+                <label for="Name">Name:</label><br>
+                <input type="text" id="Name" name="Name" required pattern="[a-zA-Z]{2,}.[a-zA-Z]{2,}" title="First and last name" placeholder="First and Last name" ><br><br>
+
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd" placeholder="Password"><br><br>
+
+                <label for="Phone Number">Phone:</label><br>
+                <input type="text" id="Phone" name="Number" maxlength="10" required placeholder="Phone Number"><br><br>
+
+                <label for="Email">Email:</label><br>
+                <input type="email" id="email" name="Email"required  pattern="[a-z0-9._%+-]+@(gmail||yahoo)[a-z0-9.-]+\.[a-z]{2,}$" title="only gmail or yahoo or icloud" placeholder="Email Address"><br><br>
+
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday">
+
+                <p><b>Choose the gender:</b></p>
+                <input type="radio" id="Male" name="gender" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="gender" value="Female">
+                <label for="Female">Female</label><br><br>
+                
+                <label for="Message">Message</label><br>
+                <input type="text" id="Message" name="Message" style="width:300px; height:150px;" placeholder="Message"><br><br>
+
+                <label for="myfile">Select a file:</label><br>
+                <input type="file" id="myfile" name="myfile"><br><br>
+
+                <input type="submit" value="Login"><br>
+            </form>
+        </section>
+        <p>Use the <em>gap</em> shorthand property to adjust the space between the columns and rows.</p>
+
+        <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>  
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>  
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+
+        </div>
+        <p>FlexBox</p>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+          </div>
+          
+        <p class="nameCreat">Create it by Ahmad Waebeusar</p>
+        </body>
+        </html>
+
+
